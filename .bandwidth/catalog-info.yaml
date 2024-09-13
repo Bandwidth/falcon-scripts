@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  schemaVersion: v1.0.0
+  name: falcon-scripts-location
+  description: Links to additional entities in the falcon-scripts repository.
+  annotations:
+    github.com/project-slug: Bandwidth/falcon-scripts
+spec:
+  targets:
+    - ./component.yaml
